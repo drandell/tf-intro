@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "tf-state"
-    prefix  = "terraform/state"
+    bucket = "billing-budgets-tf-state"
+    prefix = "terraform/state"
   }
 }
